@@ -1,8 +1,10 @@
 (sym_lib_table
   (version 7)
-  (lib (name "ESP8266")(type "Legacy")(uri "${KIPRJMOD}/ESP8266.lib")(options "")(descr ""))
+  (lib (name "ESP8266")(type "KiCad")(uri "${KIPRJMOD}/ESP8266.kicad_sym")(options "")(descr ""))
   (lib (name "CAN")(type "KiCad")(uri "${KIPRJMOD}/CAN.kicad_sym")(options "")(descr ""))
   (lib (name "TJA1050")(type "Legacy")(uri "${KIPRJMOD}/TJA1050.lib")(options "")(descr ""))
   (lib (name "SSD1306-128x64_OLED")(type "Legacy")(uri "${KIPRJMOD}/SSD1306-128x64_OLED.lib")(options "")(descr ""))
   (lib (name "Interface_CAN_LIN")(type "Legacy")(uri "${KIPRJMOD}/Interface_CAN_LIN.lib")(options "")(descr ""))
+  (lib (name "2024-11-03_10-56-35")(type "KiCad")(uri "${KIPRJMOD}/external_components/oscilator/2024-11-03_10-56-35.kicad_sym")(options "")(descr ""))
+  (lib (name "2024-11-03_12-25-55")(type "KiCad")(uri "${KIPRJMOD}/external_components/StepDown/2024-11-03_12-25-55.kicad_sym")(options "")(descr ""))
 )
