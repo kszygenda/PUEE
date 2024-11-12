@@ -7,4 +7,8 @@
   (lib (name "Interface_CAN_LIN")(type "Legacy")(uri "${KIPRJMOD}/Interface_CAN_LIN.lib")(options "")(descr ""))
   (lib (name "2024-11-03_10-56-35")(type "KiCad")(uri "${KIPRJMOD}/external_components/oscilator/2024-11-03_10-56-35.kicad_sym")(options "")(descr ""))
   (lib (name "2024-11-03_12-25-55")(type "KiCad")(uri "${KIPRJMOD}/external_components/StepDown/2024-11-03_12-25-55.kicad_sym")(options "")(descr ""))
+  (lib (name "WS2815")(type "KiCad")(uri "${KIPRJMOD}/WS2815.kicad_sym")(options "")(descr ""))
+  (lib (name "WS2815_mini")(type "KiCad")(uri "${KIPRJMOD}/WS2815_mini.kicad_sym")(options "")(descr ""))
+  (lib (name "PUEE_connectors")(type "KiCad")(uri "${KIPRJMOD}/PUEE_connectors.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS54302DDCR")(type "KiCad")(uri "${KIPRJMOD}/external_components/PSU/TPS54302DDCR.kicad_sym")(options "")(descr ""))
 )
