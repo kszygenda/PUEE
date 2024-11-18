@@ -1,4 +1,4 @@
-24189309687940113
+24187578797705240
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65239,13 +65239,6 @@ Yellow 5381 Series LED
 0
 2
 2
-LED_TRICOLOR
-LED-TRICOLOR-5050
-<h3>WS2815 5050 SMD RGB LED</h3><p><b>Specifications:</b><ul><li>Pin count: 6</li><li>Pin pitch: 0.6mm</li><li>Area: 5.0mm x 5.0mm</li><li>Thickness: 2.6mm</li></ul></p><p><b>Example device(s):</b><ul><li>LED-RGB</li></ul></p>
-
-0
-6
-6
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
