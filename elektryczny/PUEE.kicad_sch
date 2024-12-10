@@ -4355,6 +4355,12 @@
 		(uuid "1e2368fc-f322-437e-b5a6-40fdd7c3248a")
 	)
 	(junction
+		(at 258.064 109.728)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "203f3527-a8de-43df-9fde-9350b9a78179")
+	)
+	(junction
 		(at 240.792 144.526)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4487,12 +4493,6 @@
 		(uuid "9365c2b5-fce0-4b79-a75d-6006e16d35e1")
 	)
 	(junction
-		(at 258.064 117.348)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9687df0d-e238-44d2-a010-b14457867c37")
-	)
-	(junction
 		(at 94.234 120.904)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4515,12 +4515,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad0d03eb-fda3-4567-bf38-a78ce64bd294")
-	)
-	(junction
-		(at 258.064 109.728)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af8a4a77-3cc7-44c7-8326-816553a9fdc9")
 	)
 	(junction
 		(at 186.436 104.14)
@@ -4611,6 +4605,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7e34e41-dd22-4b94-aeee-723fd0de3105")
+	)
+	(junction
+		(at 258.064 117.348)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed4ef6aa-ddf1-4e09-9df9-cd57fc3120c9")
 	)
 	(junction
 		(at 201.422 116.459)
@@ -4861,16 +4861,6 @@
 			(type default)
 		)
 		(uuid "07b5b7fd-af12-4580-ad3d-ccb164cbc736")
-	)
-	(wire
-		(pts
-			(xy 258.064 117.348) (xy 266.7 117.348)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "091ec60c-2b41-48d5-8764-82bd542392e4")
 	)
 	(wire
 		(pts
@@ -6014,16 +6004,6 @@
 	)
 	(wire
 		(pts
-			(xy 258.064 109.728) (xy 266.954 109.728)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6900dceb-5e93-487a-91fa-a8e50e7355d3")
-	)
-	(wire
-		(pts
 			(xy 154.94 66.294) (xy 154.94 69.088)
 		)
 		(stroke
@@ -6494,6 +6474,16 @@
 	)
 	(wire
 		(pts
+			(xy 258.064 117.348) (xy 266.7 117.348)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9981b213-046f-432a-a3c1-c0fe85ca9eef")
+	)
+	(wire
+		(pts
 			(xy 183.896 116.078) (xy 186.436 116.078)
 		)
 		(stroke
@@ -6661,6 +6651,16 @@
 			(type default)
 		)
 		(uuid "aa44d0c3-fbf3-4851-a24b-ea4c324f2858")
+	)
+	(wire
+		(pts
+			(xy 258.064 109.728) (xy 266.954 109.728)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aad73107-a829-4da0-b5c9-614a66b82b03")
 	)
 	(wire
 		(pts
@@ -12420,7 +12420,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 20.828 112.522 0)
+		(at 20.828 112.522 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12428,7 +12428,7 @@
 		(dnp no)
 		(uuid "8867cac7-bfd2-4502-8452-775f66840301")
 		(property "Reference" "C11"
-			(at 13.462 111.506 0)
+			(at 28.194 113.538 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12437,7 +12437,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 13.208 113.538 0)
+			(at 28.448 111.506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12446,7 +12446,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 21.7932 116.332 0)
+			(at 19.8628 108.712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12473,7 +12473,7 @@
 			)
 		)
 		(property "Catalogue_number" "GRM32ER61C476KE15"
-			(at 24.892 113.538 90)
+			(at 16.764 111.506 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12713,7 +12713,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 258.064 113.538 0)
+		(at 258.064 113.538 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12722,25 +12722,25 @@
 		(fields_autoplaced yes)
 		(uuid "93804d35-e378-474d-a1b7-4370d20f04cc")
 		(property "Reference" "R11"
-			(at 260.604 112.2679 0)
+			(at 260.35 112.2679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "120"
-			(at 260.604 114.8079 0)
+			(at 260.35 114.8079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 256.286 113.538 90)
+			(at 259.842 113.538 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13286,7 +13286,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_HC49-U_Vertical"
+		(property "Footprint" "footprint_oscylator:ABL-8.000MHZ-B2_ABR"
 			(at 28.448 48.514 0)
 			(effects
 				(font
